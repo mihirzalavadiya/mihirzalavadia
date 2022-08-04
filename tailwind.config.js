@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
-      body: 'Work Sans',
+      body: 'Helvetica, Arial, sans-serif',
+      // body: 'Work Sans',
     },
     container: {
       padding: {
@@ -30,7 +31,7 @@ module.exports = {
         secondary: '#1C1D24',
         tertiary: '#131419',
         accent: {
-          DEFAULT: '#ac6b34',
+          DEFAULT: '#db2777',
           hover: '#925a2b',
         },
         paragraph: '#878e99',

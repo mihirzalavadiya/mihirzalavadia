@@ -1,7 +1,15 @@
 import "./App.css";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <div style={{height: "2000px"}}></div>
+    </>
+  );
 }
 
 export default App;

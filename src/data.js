@@ -1,15 +1,16 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiTwitter,
+  FiLinkedin,
+  FiFacebook
 } from 'react-icons/fi';
 
 // companies icons
@@ -73,20 +74,24 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/mihirzalavadiya',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/mihirzalavadiya',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiInstagram />,
+    href: 'https://www.instagram.com/mihirzalavadiya1/',
+  },
+  {
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/mihir.zalavadiya.52?ref=bookmarks',
+  },
+  {
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/ZalavadiyaMihir',
   },
 ];
 
