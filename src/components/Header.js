@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 import SocialMedia from "./SocialMedia";
@@ -21,9 +22,9 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        <a href="/">
+        <Link to="home" className="cursor-pointer">
           <span className="text-xl lg:text-2xl logo select-none">Mihir Zalavadiya</span>
-        </a>
+        </Link>
 
         {/* nav */}
         <div className="hidden lg:block">

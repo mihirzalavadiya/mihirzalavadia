@@ -48,7 +48,7 @@ const NavMobile = () => {
         variants={circleVariants}
         initial="hidden"
         animate={isOpen ? "visible" : "hidden"}
-        className="w-5 h-5 md:w-7 md:h-7 rounded-full bg-pink-600 fixed top-0 right-0"
+        className="w-5 h-5 md:w-7 md:h-7 rounded-full bg-orange-600 fixed top-0 right-0"
       ></motion.div>
 
       {/* Motion of menu */}
@@ -76,7 +76,8 @@ const NavMobile = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="transition-all duration-300 text-xl cursor-pointer capitalize"
+                className="transition-all duration-300 text-xl md:text-3xl cursor-pointer capitalize text-white"
+                onClick={clickHandler}
               >
                 {item.name}
               </Link>

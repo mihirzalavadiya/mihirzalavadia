@@ -8,7 +8,7 @@ const SocialMedia = () => {
         {social.map((item, index) => {
           return (
             <li
-              className="flex justify-center items-center text-pink-600"
+              className="flex justify-center items-center text-orange-600"
               key={index}
             >
               <a href={item.href} className='text-base' target="blank">
