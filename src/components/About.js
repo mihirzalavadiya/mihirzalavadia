@@ -9,7 +9,7 @@ const About = () => {
           <img
             src={Image}
             alt="mihir zalavadiya"
-            className="object-cover h-[400px] w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
+            className="object-cover md:h-[350px] md:w-[350px] lg:h-[400px] lg:w-[566px] h-[400px] w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
           />
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <div className="flex flex-col">
