@@ -64,14 +64,6 @@ export const navigation = [
     href: "portfolio",
   },
   {
-    name: "services",
-    href: "services",
-  },
-  {
-    name: "testimonials",
-    href: "testimonials",
-  },
-  {
     name: "contact",
     href: "contact",
   },
@@ -277,12 +269,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at ",
+    mail: "mihirzalavadiya@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
-    description: "Serving clients worldwide",
+    subtitle: "Khageshri, Porbander",
   },
 ];
